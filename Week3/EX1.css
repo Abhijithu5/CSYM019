@@ -21,6 +21,9 @@ main {
     background-color: black;
     color: white;
     grid-area: main;
+    border: 20px solid red;
+    padding: 20px;
+    margin: 20px;
 }
 aside {
     background-color: black;
