@@ -1,0 +1,37 @@
+.layoutContainer{
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+                         "nav main aside"
+                         "footer footer footer";
+}
+
+header {
+    background-color: yellow;
+    color: black;
+    grid-area: header;
+}
+nav {
+    background-color: yellow;
+    color: white;
+    grid-area: nav;
+}
+main {
+    background-color: yellow;
+    color: black;
+    grid-area: main;
+}
+aside {
+    background-color: yellow;
+    color: black;
+    grid-area: aside;
+}
+footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+    border: 20px solid goldenrod;
+    padding: 20px;
+    margin: 20px;
+}
