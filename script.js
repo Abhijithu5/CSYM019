@@ -14,3 +14,7 @@ function add() {
     
 }
 add();
+
+function print5() {
+    
+}
